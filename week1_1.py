@@ -1,5 +1,6 @@
 # ========================================
-# PERTEMUAN 1: PENGENALAN PYTHON
+# MINGGU 1 - SESI 1: PENGENALAN PYTHON
+# Durasi: 30 menit
 # ========================================
 
 print("Selamat datang di pelajaran Python!")

@@ -1,8 +1,9 @@
 # ========================================
-# PERTEMUAN 2: VARIABEL DAN TIPE DATA
+# MINGGU 1 - SESI 2: VARIABEL DAN TIPE DATA
+# Durasi: 30 menit
 # ========================================
 
-print("Selamat datang di pelajaran ke-2!")
+print("Selamat datang di sesi ke-2!")
 print("Hari ini kita akan belajar tentang variabel dan tipe data")
 
 print("\n=== Apa itu Variabel? ===")
@@ -20,9 +21,9 @@ umur = input("Masukkan umur kamu: ")
 print(f"\nHalo {nama}!")
 print(f"Kamu dari kelas {kelas} dan berumur {umur} tahun")
 
-print("\n" + "="*50)
+print("\n" + "="*40)
 print("KONSEP PENTING: TIPE DATA")
-print("="*50)
+print("="*40)
 
 print("\n1. STRING (str) - untuk teks")
 print(f"   Nama kamu: {nama}")
@@ -41,18 +42,14 @@ sudah_mengerjakan_pr = True
 print(f"   Sudah mengerjakan PR: {sudah_mengerjakan_pr}")
 print(f"   Tipe data: {type(sudah_mengerjakan_pr)}")
 
-print("\n" + "="*50)
-print("LATIHAN MATEMATIKA SEDERHANA")
-print("="*50)
+print("\n" + "="*40)
+print("LATIHAN SEDERHANA")
+print("="*40)
 
-nilai_matematika = 85
-nilai_ipa = 90
-
-print(f"Nilai Matematika: {nilai_matematika}")
-print(f"Nilai IPA: {nilai_ipa}")
-
-rata_rata = (nilai_matematika + nilai_ipa) / 2
-print(f"Nilai rata-rata: {rata_rata}")
+# Contoh operasi sederhana
+print("Mari hitung umur kamu tahun depan:")
+umur_tahun_depan = umur_angka + 1
+print(f"Umur kamu tahun depan: {umur_tahun_depan} tahun")
 
 print("\n📝 TUGAS UNTUK KAMU:")
 print("1. Buat variabel untuk menyimpan mata pelajaran favorit")
@@ -60,8 +57,6 @@ print("2. Buat variabel untuk menyimpan jumlah teman di kelas")
 print("3. Tampilkan semua variabel yang sudah kamu buat")
 
 # Area untuk siswa berlatih:
-# Tulis kode kamu di bawah ini:
-
 # mata_pelajaran_favorit = "..."
 # jumlah_teman = ...
 # print(f"Mata pelajaran favorit: {mata_pelajaran_favorit}")
