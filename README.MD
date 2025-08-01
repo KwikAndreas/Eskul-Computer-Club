@@ -29,7 +29,7 @@ Repository ini merupakan dokumentasi pembelajaran Python untuk Eskul Computer Cl
 - Membuat perintah print() dengan nama dan hobi mereka
 - Mengubah teks menjadi huruf besar
 
-**Durasi Estimasi:** 90 menit
+**Durasi Estimasi:** 60 menit
 
 ---
 
@@ -52,7 +52,7 @@ Repository ini merupakan dokumentasi pembelajaran Python untuk Eskul Computer Cl
 - Menghitung rata-rata nilai
 - Menampilkan tipe data dengan `type()`
 
-**Durasi Estimasi:** 90 menit
+**Durasi Estimasi:** 60 menit
 
 ---
 
@@ -75,7 +75,7 @@ Repository ini merupakan dokumentasi pembelajaran Python untuk Eskul Computer Cl
 - Kalkulator sederhana
 - Program untuk menentukan genap/ganjil
 
-**Durasi Estimasi:** 90 menit
+**Durasi Estimasi:** 60 menit
 
 ---
 
@@ -138,9 +138,3 @@ Repository ini merupakan dokumentasi pembelajaran Python untuk Eskul Computer Cl
 - Online Python Interpreter
 
 ---
-
-## 📞 DUKUNGAN
-
-Jika ada pertanyaan atau saran perbaikan materi, silakan hubungi pengembang materi ini.
-
-**Selamat mengajar! 🎓**
