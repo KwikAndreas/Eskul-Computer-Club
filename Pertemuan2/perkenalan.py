@@ -1,0 +1,7 @@
+print()
+print("Nama    : [Isi nama]")
+print("Umur    : [Isi umur]")
+print("Sekolah : [Isi nama sekolah]")
+print("Hobi    : [Isi hobi]")
+print()
+print("Salam kenal semuanya! 👋")

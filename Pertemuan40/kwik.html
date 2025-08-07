@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Saya</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid rgba(255, 255, 255, 0.3);
+        margin: 0 auto 20px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .profile-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      .profile-name {
+        font-size: 48px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      .profile-title {
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.9);
+        margin-bottom: 30px;
+        font-weight: 500;
+      }
+
+      .profile-description {
+        color: rgba(255, 255, 255, 0.8);
+        line-height: 1.6;
+        margin-bottom: 40px;
+        font-size: 16px;
+        max-width: 600px;
+      }
+
+      .social-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .social-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        backdrop-filter: blur(10px);
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .social-btn:hover {
+        transform: translateY(-5px) scale(1.1);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        background: rgba(255, 255, 255, 0.2);
+      }
+
+      .facebook:hover {
+        background: rgba(59, 89, 152, 0.8);
+      }
+      .twitter:hover {
+        background: rgba(29, 161, 242, 0.8);
+      }
+      .instagram:hover {
+        background: rgba(228, 64, 95, 0.8);
+      }
+      .linkedin:hover {
+        background: rgba(0, 119, 181, 0.8);
+      }
+      .github:hover {
+        background: rgba(51, 51, 51, 0.8);
+      }
+      .email:hover {
+        background: rgba(234, 67, 53, 0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-img">
+      <img src="profil.jpeg" alt="Profile Picture" />
+    </div>
+
+    <h1 class="profile-name">Nama Anda</h1>
+    <p class="profile-title">Web Developer | Designer</p>
+
+    <p class="profile-description">
+      Saya adalah seorang web developer yang berpengalaman dalam membuat website
+      dan aplikasi web modern. Saya passionate dalam teknologi dan selalu ingin
+      belajar hal-hal baru.
+    </p>
+
+    <div class="social-buttons">
+      <a href="#" class="social-btn instagram" title="Instagram">📷</a>
+      <a href="#" class="social-btn github" title="GitHub">⚡</a>
+      <a
+        href="mailto:your-email@email.com"
+        class="social-btn email"
+        title="Email"
+        >✉️</a
+      >
+    </div>
+  </body>
+</html>
